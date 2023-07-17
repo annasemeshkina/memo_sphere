@@ -1,0 +1,218 @@
+body {
+  background-color: black;
+  cursor: url('./images/cursor.svg'), auto;
+}
+body p {
+  font-family: "NeueMachina";
+  color: white;
+}
+html{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* ------------------------------------------------------------  3D  ---------------------------------------------------------- */
+.v2 {
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  background: url('images/v2.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -29vw;
+  margin-top: 18vh;
+  z-index: -2;
+}
+.v1 {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background: url('images/v1.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 43vw;
+  margin-top: -13vh;
+  z-index: -1;
+}
+/* ------------------------------------------------------------  МЕНЮ  ---------------------------------------------------------- */
+.menu {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  align-items: center;
+  flex-wrap: 4vw;
+  font-size: 1vw;
+}
+.menu p:hover {
+  color: #ED04C8;
+}
+.logo {
+  margin-left: 4vw;
+  height: 60%;
+  width: 15%;
+  background: url('images/logo.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.glavnay {
+  margin-left: 18vw;
+}
+.tech {
+  margin-left: 6vw;
+}
+.kupit {
+  margin-left: 6vw;
+}
+.support {
+  margin-left: 6vw;
+}
+.eng {
+  margin-left: 15vw;
+}
+.strela {
+  height: 13%;
+  width: 1%;
+  background: url('images/strela.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* ------------------------------------------------------------  1 БЛОК  ---------------------------------------------------------- */
+.block1 {
+  height: 30vh;
+  width: 100%;
+  margin-top: 37vh;
+}
+.text1 {
+  display: flex;
+}
+.text1 p{
+  margin-top: 36vh;
+  margin-left: 39vw;
+  font-size: 2.7vw;
+}
+#demo {
+  width: 20vw;
+  height: 10vw;
+  font-family: "NeueMachina";
+  margin-left: 41vw;
+  font-size: 2.7vw;
+  color: white;
+}
+.podrobnee {
+  height: 16%;
+  width: 16%;
+  background: url('images/podrobnee.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 3vh;
+  margin-left: 45vw;
+}
+.podrobnee:hover {
+  height: 16%;
+  width: 16%;
+  background: url('images/podrobneepink.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* ------------------------------------------------------------  2 БЛОК  ---------------------------------------------------------- */
+.block2 {
+  width: 100%;
+  height: 70vw;
+}
+.device {
+  margin-top: 30vh;
+  margin-left: 4vw;
+  height: 80%;
+  width: 90%;
+  background: url('images/device.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text2 {
+  margin-top: -20vh;
+  margin-left: 21vw;
+  display: flex;
+  color: white;
+  font-size: 3.5vw;
+}
+.text2 p + p {
+  margin-left: 26vw;
+}
+.text3 {
+  margin-top: 3vh;
+  margin-left: 15vw;
+  display: flex;
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+}
+.text3 p + p {
+  margin-left: 14vw;
+}
+/* ------------------------------------------------------------  3 БЛОК  ---------------------------------------------------------- */
+.watch {
+  margin-top: -6vh;
+  margin-left: 10vw;
+  height: 80%;
+  width: 80%;
+  background: url('images/watch.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block3 {
+  width: 100%;
+  height: 70vw;
+}
+/* ------------------------------------------------------------  4 БЛОК  ---------------------------------------------------------- */
+.block4 {
+  margin-top: -17vh;
+  width: 100%;
+  height: 70vw;
+  display: flex;
+}
+.app2 {
+  position: absolute;
+  margin-top: -14vh;
+  margin-left: -15vw;
+  height: 120%;
+  width: 100%;
+  background: url('images/app.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.apps {
+  margin-left: 60vw;
+  margin-top: 18vh;
+  font-size: 1.5vw;
+}
+.apps p {
+  margin-top: 5vh;
+}
+.download {
+  margin-top: -14vh;
+  margin-left: 3vw;
+  height: 60%;
+  width: 60%;
+  background: url('images/download.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
