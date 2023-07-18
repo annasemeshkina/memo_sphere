@@ -138,7 +138,34 @@ body {
   margin-left: 4vw;
   height: 80%;
   width: 90%;
-  background: url('images/device.svg');
+  display: flex;
+}
+.watch1 {
+  margin-top: 23vh;
+  margin-left: -5vw;
+  height: 60%;
+  width: 80%;
+  background: url('images/watch1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.phone {
+  margin-top: 31vh;
+  margin-left: -8vw;
+  height: 40%;
+  width: 30%;
+  background: url('images/phone.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.vr {
+  margin-top: 23vh;
+  margin-left: 2vw;
+  height: 60%;
+  width: 50%;
+  background: url('images/vr.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,6 +176,9 @@ body {
   display: flex;
   color: white;
   font-size: 3.5vw;
+}
+.text2 p:hover {
+  color: #ED04C8;
 }
 .text2 p + p {
   margin-left: 26vw;
@@ -163,6 +193,9 @@ body {
 }
 .text3 p + p {
   margin-left: 14vw;
+}
+.text3 p:hover {
+  color: #ED04C8;
 }
 /* ------------------------------------------------------------  3 БЛОК  ---------------------------------------------------------- */
 .watch {

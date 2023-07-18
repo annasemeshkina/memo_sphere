@@ -1,0 +1,368 @@
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+.glavnay   {
+  display: none  ;
+  }
+.tech {
+    display: none  ;
+}
+  .kupit {
+    display: none  ;
+}
+  .support {
+    display: none;
+  }
+  .eng {
+    display: none;
+  }
+  .strela {
+    display: none;
+  }
+  .v2 {
+    display: none;
+  }
+  .podrobnee {
+    display: none;
+  }
+  .logo {
+    margin-left: 6vw  ;
+    height: 80%;
+    width: 55%;
+  }
+  .v1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('images/video2.gif');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -5vw;
+    margin-top: -18vh;
+    z-index: -1;
+  }
+  .block1 {
+    height: 0vh;
+    margin-top: 27vh;
+  }
+  #demo {
+    margin-left: 30vw;
+    font-size: 4vw;
+  }
+  .block2 {
+    margin-top: 45vh;
+  }
+  .text2 p {
+    position: absolute;
+    margin-left: 47vw;
+    margin-top: -6vh;
+    font-size: 10vw;
+  }
+  .text2 p + p {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 5vw;
+    font-size: 10vw;
+  }
+  .text2 p + p +p {
+    position: absolute;
+    margin-top:67vh;
+    margin-left: 47vw;
+    font-size: 10vw;
+  }
+  .text3 p {
+    position: absolute;
+    margin-left: 42vw;
+    margin-top: -3vh;
+    font-size: 3vw;
+  }
+  .text3 p + p {
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 0vw;
+    font-size: 3vw;
+  }
+  .text3 p + p +p {
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 40vw;
+    font-size: 3vw;
+  }
+  .watch1 {
+    margin-top: -25vh;
+    margin-left: -13vw;
+    position: absolute;
+  }
+  .phone {
+    margin-top: 21vh;
+    margin-left: 50vw;
+    position: absolute;
+  }
+  .vr {
+    margin-top: 47vh;
+    margin-left: -5vw;
+    height: 60%;
+    position: absolute;
+  }
+  .watch {
+    margin-top: 69vh;
+    margin-left: 1vw;
+    height: 100%;
+    width: 100%;
+    background: url('images/watch2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .app2 {
+    margin-top: -24vh;
+    margin-left: 0vw;
+    height: 100%;
+    width: 100%;
+    background: url('images/app3.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  .block4 {
+    margin-top: 20vh;
+    width: 100%;
+    height: 200vw;
+    display: flex;
+  }
+  .apps {
+    display:inline;
+  }
+  .apps {
+    margin-left: 20vw;
+    margin-top: 60vh;
+    font-size: 4vw;
+    text-align: center;
+  }
+  .apps p {
+    margin-top: 5vh;
+  }
+  .download {
+    margin-top: -8vh;
+    margin-left: 0vw;
+    height: 60%;
+    width: 100%;
+    background: url('images/download2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 720px) {
+.glavnay   {
+  display: none  ;
+  }
+.tech {
+    display: none  ;
+}
+  .kupit {
+    display: none  ;
+}
+  .support {
+    display: none;
+  }
+  .eng {
+    display: none;
+  }
+  .strela {
+    display: none;
+  }
+  .v2 {
+    display: none;
+  }
+  .podrobnee {
+    display: none;
+  }
+  .logo {
+    margin-top: 2vh;
+    margin-left: 24vw;
+    height: 80%;
+    width: 55%;
+  }
+  .v1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('images/video2.gif');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -5vw;
+    margin-top: 5vh;
+    z-index: -1;
+  }
+  .block1 {
+    height: 0vh;
+    margin-top: 45vh;
+  }
+  #demo {
+    margin-left: 30vw;
+    font-size: 4vw;
+  }
+  .block2 {
+    margin-top: 45vh;
+  }
+  .text2 p {
+    position: absolute;
+    margin-left: 47vw;
+    margin-top: -6vh;
+    font-size: 10vw;
+  }
+  .text2 p + p {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 5vw;
+    font-size: 10vw;
+  }
+  .text2 p + p +p {
+    position: absolute;
+    margin-top:67vh;
+    margin-left: 47vw;
+    font-size: 10vw;
+  }
+  .text3 p {
+    position: absolute;
+    margin-left: 42vw;
+    margin-top: -3vh;
+    font-size: 3vw;
+  }
+  .text3 p + p {
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 0vw;
+    font-size: 3vw;
+  }
+  .text3 p + p +p {
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 40vw;
+    font-size: 3vw;
+  }
+  .watch1 {
+    margin-top: -10vh;
+    margin-left: -13vw;
+    position: absolute;
+  }
+  .phone {
+    margin-top: 36vh;
+    margin-left: 50vw;
+    position: absolute;
+  }
+  .vr {
+    margin-top: 62vh;
+    margin-left: -5vw;
+    height: 60%;
+    position: absolute;
+  }
+  .watch {
+    margin-top: 85vh;
+    margin-left: 1vw;
+    height: 100%;
+    width: 100%;
+    background: url('images/watch2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .app2 {
+    margin-top: -24vh;
+    margin-left: 0vw;
+    height: 100%;
+    width: 100%;
+    background: url('images/app3.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  .block4 {
+    margin-top: 20vh;
+    width: 100%;
+    height: 200vw;
+    display: flex;
+  }
+  .apps {
+    display:inline;
+  }
+  .apps {
+    margin-left: 20vw;
+    margin-top: 60vh;
+    font-size: 4vw;
+    text-align: center;
+  }
+  .apps p {
+    margin-top: 5vh;
+  }
+  .download {
+    margin-top: -8vh;
+    margin-left: 0vw;
+    height: 60%;
+    width: 100%;
+    background: url('images/download2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 721px) and (max-width: 1240px) {
+  .v1 {
+      position: absolute;
+      height: 50%;
+      width: 80%;
+      background: url('images/v1.gif');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-left: 55vw;
+      margin-top: -10vh;
+      z-index: -1;
+  }
+  .v2 {
+      position: absolute;
+      height: 70%;
+      width: 80%;
+      margin-top: 35vh;
+  }
+  .text2 {
+    margin-top: -3vh;
+  }
+  #demo {
+    margin-left: 37vw;
+    font-size: 3.7vw;
+  }
+  .podrobnee {
+    margin-top: 6vh;
+    margin-left: 43vw;
+  }
+  .watch {
+    margin-top: 7vh;
+  }
+  .block4 {
+    margin-top: 0vh;
+    height: 70vw;
+    display: flex;
+  }
+  .apps {
+    margin-left: 63vw;
+    font-size: 2vw;
+  }
+  .apps p {
+    margin-top: 3vh;
+  }
+  .download {
+    margin-top: 3vh;
+    margin-left: 3vw;
+    height: 60%;
+    width: 70%;
+    background: url('images/download.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
