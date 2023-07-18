@@ -23,8 +23,11 @@
   .podrobnee {
     display: none;
   }
+  .menu {
+    position: static;
+  }
   .logo {
-    margin-left: 6vw  ;
+    margin-left: 25vw  ;
     height: 80%;
     width: 55%;
   }
@@ -155,6 +158,9 @@
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 720px) {
+.menu {
+  position: static;
+}
 .glavnay   {
   display: none  ;
   }
